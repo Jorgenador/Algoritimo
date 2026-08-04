@@ -95,4 +95,4 @@ def Ordenador(n):
     n.sort()
     print(f"O menor numero é: {n[0]}, o maior numero é {n[len(n)-1]}")
 
-Ordenador(list(map(int,input("Digite uma lista de numeros, te devolverei o maior e o menos(separe-os com espaço): ").split())))
+Ordenador(list(map(int,input("Digite uma lista de numeros, te devolverei o maior e o menor(separe-os com espaço): ").split())))
