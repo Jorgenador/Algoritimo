@@ -13,7 +13,7 @@ def ImportarModulos():
         if pastas.is_dir():
             ModulosInstanciados[pastas.name] = {}
             for module_arquiv in pastas.iterdir():
-                if module_arquiv.is_file() and module_arquiv.suffix == ".py" and not module_arquiv.name.startswith("."):
+                if module_arquiv.is_file() and module_arquiv.suffix == ".py" and not module_arquiv.name.startswith(".") and not module_arquiv.name.startswith("buscas"):
                     nome_modulo = module_arquiv.stem
                     path_importar = f"{pastas.name}.{nome_modulo}"
 

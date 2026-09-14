@@ -1,0 +1,17 @@
+Já resolvi essa questão em algum lugar no meu portifolio!
+Questões estão super repetitivas e o sistema seria muito similar ao realizado na tarefa 2.
+Vou fazer um pensamento de como faria o sistema para exercitar a cabeça oa invez de condificar, já que seria igual a todo o resto.
+
+Faria um sistema com um while principal para iterar entra as funções sem a necessidade de executar o codigo novamente, função principal de cadastramento de alunos
+iria pedir o Nome, Nota1 e Nota2, nesse momento eu já calcularia se foi aprovado ou não e guardaria em um dicionário principal!
+Dá para usar o mesmo sistema de templates que eu já usei nessa revisão, funciona bem e é divertido, considerando banco de datas/datastore/dataprofile e etc é o caminho mais 
+realista.
+Para a segunda função, eu looparia no meu dicionario que usaria o nome dos proprios alunos como Key e Nota 1, Nota 2 e aprovação como valores, exibiria de forma 
+interessante para leitura.
+
+Como eu já conculei a aprovação dentro da primeira função eu não realizaria uma terceira função, apenas um menu simples com 3 opções
+[0] Sair : Break
+[1] Adicionar aluno : AdicionarAluno()
+[2] Exibir alunos e aprovação : ExibirAlunos() 
+
+e é isso!!
